@@ -44,6 +44,7 @@ The project uses a relational HR database consisting of multiple interconnected 
 | `regions`     | Groups countries into broader geographical regions                                                                               |
 These tables are connected through primary and foreign-key relationships, allowing employee information to be analyzed across organizational, compensation, management, and geographical dimensions.
 # 📊 Analysis Performed
+
 **1. Workforce Analysis**
 The employee database was analyzed to understand the overall workforce structure.
 The analysis included:
@@ -53,6 +54,7 @@ The analysis included:
 * Workforce concentration
 * Organizational structure
 The project dataset contained approximately 39 employees across the analyzed HR database.
+
 **2. Department Analysis**
 Employees were grouped by department to understand workforce distribution.
 The analysis identified differences in:
@@ -61,6 +63,7 @@ The analysis identified differences in:
 * Total payroll
 * Workforce concentration
 The Shipping department had the highest employee count in the analyzed dataset, with 7 employees.
+
 **3. Salary Analysis**
 Employee salary information was analyzed using descriptive statistics.
 The analysis covered:
@@ -74,10 +77,12 @@ The analysis covered:
 For the analyzed dataset:
 * Average salary: approximately 8,053.85
 * Median salary: approximately 7,700
+
 **4. Payroll Analysis**
 Salary information was aggregated to understand total payroll expenditure.
 The analyzed dataset had a total payroll of approximately - 314,100
 Payroll analysis provides an understanding of how employee compensation contributes to overall workforce costs.
+
 **5. Job & Compensation Analysis**
 The relationship between job roles and compensation was examined to identify salary patterns across different positions.
 The analysis included:
@@ -86,6 +91,7 @@ The analysis included:
 * Minimum and maximum salaries
 * Comparison of compensation across job categories
 The Executive job category recorded the highest average salary in the analyzed results, at approximately 19,333.33.
+
 **6. Employee-Manager Analysis**
 Employee-manager relationships were analyzed using relational queries and self-joins.
 The analysis helps identify:
@@ -94,6 +100,7 @@ The analysis helps identify:
 * Management hierarchy
 * Reporting relationships
 This demonstrates how SQL can be used to analyze organizational structures stored within relational databases.
+
 **7. Dependent Analysis**
 The `employees` and `dependents` tables were analyzed to understand employee-dependent relationships.
 The analysis included:
@@ -102,6 +109,7 @@ The analysis included:
 * Number of dependents
 * Employee-dependent relationships
 The dataset contained approximately 30 dependents.
+
 **8. Geographical Analysis**
 Employee information was connected with:
 Locations
@@ -115,6 +123,7 @@ The project database contained:
 * 25 countries
 * 4 regions
 The geographical analysis demonstrates how relational databases can support workforce planning across multiple locations.
+
 # 📌 Conclusion
 The HR Database Management & Workforce Analytics project demonstrates how Microsoft SQL Server can be used to manage and analyze interconnected Human Resources data.
 Through SQL joins, aggregations, subqueries, CASE statements, EXISTS/NOT EXISTS, set operations, self-joins, and analytical functions, the project examines workforce distribution, compensation, payroll, organizational hierarchy, employee dependents, geographical distribution, and data quality.
