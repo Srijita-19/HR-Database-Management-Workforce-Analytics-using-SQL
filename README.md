@@ -44,7 +44,7 @@ The project uses a relational HR database consisting of multiple interconnected 
 | `regions`     | Groups countries into broader geographical regions                                                                               |
 These tables are connected through primary and foreign-key relationships, allowing employee information to be analyzed across organizational, compensation, management, and geographical dimensions.
 # 📊 Analysis Performed
-## 1. Workforce Analysis
+**1. Workforce Analysis**
 The employee database was analyzed to understand the overall workforce structure.
 The analysis included:
 * Total employee count
@@ -53,7 +53,7 @@ The analysis included:
 * Workforce concentration
 * Organizational structure
 The project dataset contained approximately 39 employees across the analyzed HR database.
-## 2. Department Analysis
+**2. Department Analysis**
 Employees were grouped by department to understand workforce distribution.
 The analysis identified differences in:
 * Department headcount
@@ -61,7 +61,7 @@ The analysis identified differences in:
 * Total payroll
 * Workforce concentration
 The Shipping department had the highest employee count in the analyzed dataset, with 7 employees.
-## 3. Salary Analysis
+**3. Salary Analysis**
 Employee salary information was analyzed using descriptive statistics.
 The analysis covered:
 * Average salary
@@ -72,13 +72,13 @@ The analysis covered:
 * Job-level compensation
 * Department-level compensation
 For the analyzed dataset:
-* **Average salary:** approximately 8,053.85
-* **Median salary:** approximately 7,700
-## 4. Payroll Analysis
+* Average salary: approximately 8,053.85
+* Median salary: approximately 7,700
+**4. Payroll Analysis**
 Salary information was aggregated to understand total payroll expenditure.
 The analyzed dataset had a total payroll of approximately - 314,100
 Payroll analysis provides an understanding of how employee compensation contributes to overall workforce costs.
-## 5. Job & Compensation Analysis
+**5. Job & Compensation Analysis**
 The relationship between job roles and compensation was examined to identify salary patterns across different positions.
 The analysis included:
 * Employee count by job
@@ -86,7 +86,7 @@ The analysis included:
 * Minimum and maximum salaries
 * Comparison of compensation across job categories
 The Executive job category recorded the highest average salary in the analyzed results, at approximately 19,333.33.
-## 6. Employee-Manager Analysis
+**6. Employee-Manager Analysis**
 Employee-manager relationships were analyzed using relational queries and self-joins.
 The analysis helps identify:
 * Who reports to whom
@@ -94,7 +94,7 @@ The analysis helps identify:
 * Management hierarchy
 * Reporting relationships
 This demonstrates how SQL can be used to analyze organizational structures stored within relational databases.
-## 7. Dependent Analysis
+**7. Dependent Analysis**
 The `employees` and `dependents` tables were analyzed to understand employee-dependent relationships.
 The analysis included:
 * Employees with dependents
@@ -102,7 +102,7 @@ The analysis included:
 * Number of dependents
 * Employee-dependent relationships
 The dataset contained approximately 30 dependents.
-## 8. Geographical Analysis
+**8. Geographical Analysis**
 Employee information was connected with:
 Locations
      ↓
